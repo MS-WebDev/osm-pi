@@ -14,7 +14,7 @@ OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMa
 + QGis (Desktop)
 + pgAdmin3 (Desktop)
 
-### ToDo List
+### ToDo Liste
 + OSM Pi Installer
 + OSM Pi Manager - v1 soll OSM-Extrakte (via osm2pgsql) importieren und überwachen können
 
