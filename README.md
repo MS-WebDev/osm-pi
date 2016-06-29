@@ -13,7 +13,6 @@ OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMa
 #### GIS und Verwaltungsprogramme (optional)
 + QGis (Desktop)
 + pgAdmin3 (Desktop)
-+ phpPgAdmin (Webserver: Apache)
 
 ### ToDo List
 + OSM Pi Installer
