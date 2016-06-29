@@ -15,7 +15,7 @@ OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMa
 + pgAdmin3 (Desktop)
 + phpPgAdmin (Webserver: Apache)
 
-### ToDo
+### ToDo List
 + OSM Pi Installer
 + OSM Pi Manager - v1 soll OSM-Extrakte (via osm2pgsql) importieren und überwachen können
 
