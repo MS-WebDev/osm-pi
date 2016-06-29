@@ -8,7 +8,7 @@ OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMa
 + PostgreSql 9.4
 + PostGis
 + osm2pgsql
-+ osmconvert
++ osmctools
 
 #### GIS und Verwaltungsprogramme (optional)
 + QGis (Desktop)
