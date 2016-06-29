@@ -1,6 +1,10 @@
 # OSM Quick Install - Raspberry Pi
 OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMap Datenbank, auf dem Standard OS Raspbian, schaffen.
 
+```
+Dieses Tool ist aktuell in Entwicklung
+```
+
 ### OSM Pi nutzt diese Module
 + PostgreSql 9.4
 + PostGis
