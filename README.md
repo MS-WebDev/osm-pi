@@ -2,7 +2,7 @@
 ```
 Dieses Tool ist aktuell in Entwicklung
 ```
-OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMap Datenbank, auf dem Standard OS Raspbian, schaffen.
+OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMap Datenbank, auf dem Betriebssystem Raspbian, erstellen.
 
 ### OSM Pi nutzt diese Module
 + PostgreSql 9.4
@@ -16,7 +16,7 @@ OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMa
 
 ### ToDo Liste
 + OSM Pi Installer
-+ OSM Pi Manager - v1 soll OSM-Extrakte (via osm2pgsql) importieren und überwachen können
++ OSM Pi Manager - rc1 soll OSM-Extrakte (via osm2pgsql) importieren können
 
 ### How do - OSM Pi
 + [Raspberry Pi für OSM optimieren](https://github.com/MS-WebDev/osm-pi/wiki/Raspberry-Pi-f%C3%BCr-OSM-optimieren)
