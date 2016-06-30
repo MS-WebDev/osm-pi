@@ -17,7 +17,7 @@ OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMa
 ### ToDo Liste
 + OSM Pi Installer
   * Installation von Abhängigkeiten des OSM Pi Manager
-  * und optionalen Programmen
+  * und optionaler Programme
 + OSM Pi Manager - rc1
   * soll OSM-Extrakte (via osm2pgsql) importieren können
   * (G)UI 
