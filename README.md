@@ -16,11 +16,14 @@ OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMa
 
 ### OSM Pi Installation
 
+Diese OSM Pi *Alpha-Version* sollte nur auf einem neu angelegten Raspian Image aufgesetzt werden!
+
 ```Shell
 git clone https://github.com/MS-WebDev/osm-pi
 chmod +x ./osm-pi/install.sh
 ./osm-pi/install.sh
 ```
+Nach der Installation kann der OSM Importer via `osm-pi` gestartet werden. 
 
 ### ToDo Liste
 + OSM Pi Installer
