@@ -1,6 +1,6 @@
 # OSM Quick Install - Raspberry Pi
 ```
-Dieses Tool ist aktuell in Entwicklung
+Dieses Tool ist aktuell in der Experimentierphase
 ```
 OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMap Datenbank erstellen.
 
