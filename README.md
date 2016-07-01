@@ -14,6 +14,14 @@ OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMa
 + QGis (Desktop)
 + pgAdmin3 (Desktop)
 
+### OSM Pi Installation
+
+```Shell
+git clone https://github.com/MS-WebDev/osm-pi
+chmod +x ./osm-pi/install.sh
+./osm-pi/install.sh
+```
+
 ### ToDo Liste
 + OSM Pi Installer
   * Installation von Abhängigkeiten des OSM Pi Manager
