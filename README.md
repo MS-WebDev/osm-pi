@@ -25,15 +25,5 @@ chmod +x ./osm-pi/install.sh
 ```
 Nach der Installation kann der OSM Importer via `osm-pi` gestartet werden. 
 
-### ToDo Liste
-+ OSM Pi Installer
-  * Installation von Abhängigkeiten des OSM Pi Manager
-  * und optionaler Programme
-+ OSM Pi Manager - rc1
-  * soll OSM-Extrakte (via osm2pgsql) importieren können
-  * (G)UI 
-  * Aufbau einer Multi-Projektstrukur in enger Verbindung zur GIS-Datenbank
-  * individuelle Konfiguration ermöglichen
-
 ### How do - OSM Pi
 + [Raspberry Pi für OSM optimieren](https://github.com/MS-WebDev/osm-pi/wiki/Raspberry-Pi-f%C3%BCr-OSM-optimieren)
