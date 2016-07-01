@@ -2,7 +2,7 @@
 ```
 Dieses Tool ist aktuell in der Experimentierphase
 ```
-OSM Pi soll im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMap Datenbank erstellen.
+OSM Pi erstellt im Schnellverfahren eine GIS-Testumgebung auf Basis der OpenStreetMap Datenbank.
 
 #### OSM Pi nutzt diese Module
 + PostgreSql 9.4
