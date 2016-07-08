@@ -30,17 +30,19 @@ sudo apt-get install postgresql-9.4 -y
 # Setup PostgreSql
 echo -e "${Y}Setup: PostgreSql${W}"
 sudo service postgresql stop
-echo 'Change pg_hba.conf file'
-sudo -E bash -c "cat >/etc/postgresql/9.4/main/pg_hba.conf <<CMD_EOF
-local all all trust
-host all all 127.0.0.1 255.255.255.255 md5
-host all all 0.0.0.0/0 md5
-host all all ::1/128 md5
-CMD_EOF"
+#echo 'Change pg_hba.conf file'
+sudo -E bash -c "sed --in-place '/host all all localhost md5/d' /etc/postgresql/9.4/main/pg_hba.conf"
+sudo -E bash -c 'echo "host all all localhost md5" >>/etc/postgresql/9.4/main/pg_hba.conf'
+#sudo -E bash -c "cat >/etc/postgresql/9.4/main/pg_hba.conf <<CMD_EOF
+#local all all trust
+#host all all 127.0.0.1 255.255.255.255 md5
+#host all all 0.0.0.0/0 md5
+#host all all ::1/128 md5
+#CMD_EOF"
 sudo service postgresql start
 
 echo -e "${Y}Change PostgreSql Admin-Password${W}"
-psql -U postgres -c "ALTER USER postgres PASSWORD '123456';"
+sudo -u postgres psql -c "ALTER USER postgres PASSWORD '123456';"
 echo 'restart postgresql service'
 sudo service postgresql restart
 echo 'autorun postgresql service'
@@ -71,7 +73,9 @@ fi
 
 # Zugriffsrechte setzen
 chmod +x ${_SCRIPTPATH}/osm-pi.sh
-chmod +x ${_SCRIPTPATH}/importer.sh
+chmod +x ${_SCRIPTPATH}/projects/_default/import.sh
+chmod +x ${_SCRIPTPATH}/projects/_default/update.sh
+chmod +x ${_SCRIPTPATH}/projects/_default/crontab.sh
 
 # osm-pi als Alias setzen
 sed --in-place '/alias osm-pi=/d' ${_HOMEPATH}/.bash_aliases
