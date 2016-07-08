@@ -71,6 +71,10 @@ if (whiptail --title "QGis - Install" --yesno "$txt" 12 78) then
 	sudo apt-get install qgis -y
 fi
 
+# Ordner hinzufügen
+mkdir ${_SCRIPTPATH}/projects/_default/tmp
+mkdir ${_SCRIPTPATH}/projects/_default/data
+
 # Zugriffsrechte setzen
 chmod +x ${_SCRIPTPATH}/osm-pi.sh
 chmod +x ${_SCRIPTPATH}/projects/_default/import.sh
